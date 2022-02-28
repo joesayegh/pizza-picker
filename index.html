@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Your description goes here" />
+		<meta name="keywords" content="one, two, three" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Pizza Picker!</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section class="container padding">
+			<div class="pizza-flex">
+				<div class="pizza-choices">
+					<ul>
+						<h1>
+							I
+							<svg class="heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.012 892">
+								<path d="M736.012,0q-67,0-125.5,30a289.314,289.314,0,0,0-98.5,82,289.324,289.324,0,0,0-98.5-82q-58.5-30-125.5-30-119,0-204,89.5T.012,304q1,69,29.5,129.5t77.5,102.5q3,3,9,8,10,9,170,154.5t205,185.5a31.563,31.563,0,0,0,42,0q34-30,185-167.5t197-178.5q51-42,80-103.5t29-131.5q0-125-84.5-214T736.012,0Z" />
+							</svg>
+							Pizza!
+						</h1>
+						<h3>Choose your toppings:</h3>
+						<li><button class="topping" id="pepperoni">Pepperoni</button></li>
+						<li><button class="topping" id="sausage">Sausage</button></li>
+						<li><button class="topping" id="olives">Olives</button></li>
+						<li><button class="topping" id="onions">Onions</button></li>
+						<li><button class="topping" id="peppers">Green Peppers</button></li>
+						<li><button class="topping" id="spinach">Spinach</button></li>
+						<li><button class="topping" id="tomatoes">Tomatoes</button></li>
+						<li><button class="topping" id="mushrooms">Mushrooms</button></li>
+						<li><button class="topping" id="pineapple">Pineapple</button></li>
+					</ul>
+				</div>
+
+				<div class="pizza-container">
+					<div class="pizza-image">
+						<img src="img/pizza.png" alt="pizza crust" id="cheesePizza" />
+						<img src="img/tomatoes.png" alt="tomatoes" class="hidden" data-topping="tomatoes" />
+						<img src="img/pepperoni.png" alt="pepperoni" class="hidden" data-topping="pepperoni" />
+						<img src="img/spinach.png" alt="spinach" class="hidden" data-topping="spinach" />
+						<img src="img/mushrooms.png" alt="mushrooms" class="hidden" data-topping="mushrooms" />
+						<img src="img/green-peppers.png" alt="peppers" class="hidden" data-topping="peppers" />
+						<img src="img/beef.png" alt="sausages" class="hidden" data-topping="sausage" />
+						<img src="img/black-olives.png" alt="olives" class="hidden" data-topping="olives" />
+						<img src="img/onions.png" alt="onions" class="hidden" data-topping="onions" />
+						<img src="img/pineapples.png" alt="pineapple" class="hidden" data-topping="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
