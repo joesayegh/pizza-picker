@@ -19,6 +19,7 @@ Fork of [Jolene Varga's Pizza Picker](https://codepen.io/jolene-varga/pen/RwjePG
 ## Authors
 
 [@joe_sayegh](https://twitter.com/joe_sayegh)
+
 [@jolene_varga](https://twitter.com/jolene_varga)
 
 ## License
